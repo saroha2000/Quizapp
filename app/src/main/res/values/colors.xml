@@ -1,0 +1,6 @@
+<resources>
+    <color name="background_color">#F5F5F5</color> <!-- Light gray background -->
+    <color name="primary_text_color">#333333</color> <!-- Dark text color -->
+    <color name="button_color">#6200EE</color> <!-- Purple button color -->
+    <color name="result_text_color">#FF5722</color> <!-- Orange color for results -->
+</resources>
