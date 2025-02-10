@@ -1,6 +1,7 @@
 package com.example.quizapp
 
 
+import android.annotation.SuppressLint
 import android.os.Bundle
 import android.view.View
 import android.widget.Button
@@ -59,6 +60,7 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
+    @SuppressLint("SetTextI18n")
     private fun checkAnswer() {
         val selectedId = answersRadioGroup.checkedRadioButtonId
         if (selectedId != -1) {
@@ -86,6 +88,7 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
+    @SuppressLint("SetTextI18n")
     private fun showFinalResult() {
         questionTextView.visibility = View.GONE
         answersRadioGroup.visibility = View.GONE

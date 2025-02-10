@@ -28,7 +28,8 @@
             android:layout_height="51dp"
             android:background="@drawable/radio_button_background"
             android:padding="8dp"
-            android:textSize="18sp" />
+            android:textSize="18sp"
+            tools:ignore="DuplicateSpeakableTextCheck" />
 
         <RadioButton
             android:id="@+id/answer2"
